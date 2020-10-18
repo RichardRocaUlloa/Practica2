@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/frutas"
+        android:enabled="true"
+        android:icon="@drawable/ic_fruta"
+        android:title="@string/frutas"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/verduras"
+        android:enabled="true"
+        android:icon="@drawable/ic_verdura"
+        android:title="@string/verduras"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/viveres"
+        android:enabled="true"
+        android:icon="@drawable/ic_viveres"
+        android:title="@string/viveres"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/bebidas"
+        android:enabled="true"
+        android:icon="@drawable/ic_bebidas"
+        android:title="@string/bebidas"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>
