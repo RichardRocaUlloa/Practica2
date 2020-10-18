@@ -6,28 +6,24 @@
         android:enabled="true"
         android:icon="@drawable/ic_fruta"
         android:title="@string/frutas"
-        app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/verduras"
         android:enabled="true"
         android:icon="@drawable/ic_verdura"
         android:title="@string/verduras"
-        app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/viveres"
         android:enabled="true"
         android:icon="@drawable/ic_viveres"
         android:title="@string/viveres"
-        app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/bebidas"
         android:enabled="true"
         android:icon="@drawable/ic_bebidas"
         android:title="@string/bebidas"
-        app:showAsAction="ifRoom"
         />
 
 
