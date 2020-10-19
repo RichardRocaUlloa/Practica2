@@ -21,6 +21,7 @@ class FrutasAdapter (private val frutas:List<Frutas>)
 
     class FrutasHolder(item:View):RecyclerView.ViewHolder(item){
         fun bind(frutas:Frutas) = with(itemView){
+            ivFrutas.setImageResource(frutas.imagen)
             tvFrutasNombre.text = frutas.nombre
             tvFrutasDescripcion.text = frutas.descripcion
             tvFrutasPrecio.text = frutas.precio

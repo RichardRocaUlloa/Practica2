@@ -21,6 +21,7 @@ class ViveresAdapter (private val viveres:List<Viveres>)
 
     class ViveresHolder(item: View) : RecyclerView.ViewHolder(item) {
         fun bind(viveres: Viveres) = with(itemView) {
+            ivViveres.setImageResource(viveres.imagen)
             tvViveresNombre.text = viveres.nombre
             tvViveresDescripcion.text = viveres.descripcion
             tvViveresPrecio.text = viveres.precio

@@ -5,8 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
-import androidx.fragment.app.FragmentPagerAdapter
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.practica2.R
@@ -42,16 +40,16 @@ class FrutasFragment : Fragment() {
         return object : ArrayList<Frutas>(){
             init {
                 clear()
-                add(Frutas("Manzana Chilena", "Importadas", "S/.5.00"))
-                add(Frutas("Papaya", "Recien Pañadas", "S/.6.00"))
-                add(Frutas("Platano", "De la Isla y de Ceda", "S/.4.00"))
-                add(Frutas("Mango", "Recien Pañadas", "S/.8.00"))
-                add(Frutas("Fresa", "Recien Pañadas", "S/.4.00"))
-                add(Frutas("Mandarina", "Recien Pañadas", "S/.4.00"))
-                add(Frutas("Naranja", "Recien Pañadas", "S/.5.00"))
-                add(Frutas("Pera", "Recien Pañadas", "S/.7.00"))
-                add(Frutas("Durazno", "Recien Pañadas", "S/.7.00"))
-                add(Frutas("Cereza", "Recien Pañadas", "S/.2.00"))
+                add(Frutas(R.mipmap.manzana,"Manzana Chilena", "Importadas", "S/.5.00"))
+                add(Frutas(R.mipmap.papaya,"Papaya", "Recien Pañadas", "S/.6.00"))
+                add(Frutas(R.mipmap.platano,"Platano", "De la Isla y de Ceda", "S/.4.00"))
+                add(Frutas(R.mipmap.mango,"Mango", "Recien Pañadas", "S/.8.00"))
+                add(Frutas(R.mipmap.fresa,"Fresa", "Recien Pañadas", "S/.4.00"))
+                add(Frutas(R.mipmap.mandarina,"Mandarina", "Recien Pañadas", "S/.4.00"))
+                add(Frutas(R.mipmap.naranja,"Naranja", "Recien Pañadas", "S/.5.00"))
+                add(Frutas(R.mipmap.pera,"Pera", "Recien Pañadas", "S/.7.00"))
+                add(Frutas(R.mipmap.durazno,"Durazno", "Recien Pañadas", "S/.7.00"))
+                add(Frutas(R.mipmap.cereza,"Cereza", "Recien Pañadas", "S/.2.00"))
 
 
             }

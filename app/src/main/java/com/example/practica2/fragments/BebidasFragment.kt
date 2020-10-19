@@ -9,12 +9,8 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.practica2.R
 import com.example.practica2.adapters.BebidasAdapter
-import com.example.practica2.adapters.FrutasAdapter
 import com.example.practica2.models.Bebidas
-import com.example.practica2.models.Frutas
 import kotlinx.android.synthetic.main.fragment_bebidas.*
-import kotlinx.android.synthetic.main.fragment_frutas.*
-import kotlinx.android.synthetic.main.fragment_frutas.rvFrutas
 
 
 class BebidasFragment : Fragment() {
@@ -45,16 +41,16 @@ class BebidasFragment : Fragment() {
         return object : ArrayList<Bebidas>(){
             init {
                 clear()
-                add(Bebidas("Manzana Chilena", "Importadas", "S/.5.00"))
-                add(Bebidas("Papaya", "Recien Pañadas", "S/.6.00"))
-                add(Bebidas("Platano", "De la Isla y de Ceda", "S/.4.00"))
-                add(Bebidas("Mango", "Recien Pañadas", "S/.8.00"))
-                add(Bebidas("Fresa", "Recien Pañadas", "S/.4.00"))
-                add(Bebidas("Mandarina", "Recien Pañadas", "S/.4.00"))
-                add(Bebidas("Naranja", "Recien Pañadas", "S/.5.00"))
-                add(Bebidas("Pera", "Recien Pañadas", "S/.7.00"))
-                add(Bebidas("Durazno", "Recien Pañadas", "S/.7.00"))
-                add(Bebidas("Cereza", "Recien Pañadas", "S/.2.00"))
+                add(Bebidas(R.mipmap.inkacola,"InkaCola", "Personal", "S/.2.50"))
+                add(Bebidas(R.mipmap.cocacola,"CocaCola", "Personal", "S/.2.50"))
+                add(Bebidas(R.mipmap.pepsi,"Pepsi", "Personal", "S/.2.00"))
+                add(Bebidas(R.mipmap.fanta,"Fanta", "Personal", "S/.2.00"))
+                add(Bebidas(R.mipmap.sevenup,"7up", "Personal", "S/.2.00"))
+                add(Bebidas(R.mipmap.tampico,"Tampico", "3 Litros", "S/.2.00"))
+                add(Bebidas(R.mipmap.cifrut,"Cifrut", "3 Litros", "S/.2.00"))
+                add(Bebidas(R.mipmap.agua,"Agua", "3 Litros", "S/.2.00"))
+                add(Bebidas(R.mipmap.cerveza,"Cerveza", "Botella", "S/.7.00"))
+                add(Bebidas(R.mipmap.volt,"Volt", "Personal", "S/.2.00"))
 
 
             }

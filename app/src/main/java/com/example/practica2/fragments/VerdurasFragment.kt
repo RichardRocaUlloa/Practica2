@@ -8,12 +8,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.practica2.R
-import com.example.practica2.adapters.FrutasAdapter
 import com.example.practica2.adapters.VerdurasAdapter
-import com.example.practica2.models.Frutas
 import com.example.practica2.models.Verduras
-import kotlinx.android.synthetic.main.fragment_frutas.*
-import kotlinx.android.synthetic.main.fragment_frutas.rvFrutas
 import kotlinx.android.synthetic.main.fragment_verduras.*
 
 
@@ -42,16 +38,16 @@ class VerdurasFragment : Fragment() {
         return object : ArrayList<Verduras>(){
             init {
                 clear()
-                add(Verduras("Manzana Chilena", "Importadas", "S/.5.00"))
-                add(Verduras("Papaya", "Recien Pañadas", "S/.6.00"))
-                add(Verduras("Platano", "De la Isla y de Ceda", "S/.4.00"))
-                add(Verduras("Mango", "Recien Pañadas", "S/.8.00"))
-                add(Verduras("Fresa", "Recien Pañadas", "S/.4.00"))
-                add(Verduras("Mandarina", "Recien Pañadas", "S/.4.00"))
-                add(Verduras("Naranja", "Recien Pañadas", "S/.5.00"))
-                add(Verduras("Pera", "Recien Pañadas", "S/.7.00"))
-                add(Verduras("Durazno", "Recien Pañadas", "S/.7.00"))
-                add(Verduras("Cereza", "Recien Pañadas", "S/.2.00"))
+                add(Verduras(R.mipmap.lechuga,"Lechuga", "Frescos", "S/.1.00"))
+                add(Verduras(R.mipmap.tomate,"Tomate", "Frescos", "S/.1.00"))
+                add(Verduras(R.mipmap.zanahoria,"Zanahoria", "Frescos", "S/.2.00"))
+                add(Verduras(R.mipmap.papa,"Papa", "Frescos", "S/.1.80"))
+                add(Verduras(R.mipmap.camote,"Camote", "Frescos", "S/.2.00"))
+                add(Verduras(R.mipmap.yuca,"Yuca", "Frescos", "S/.3.00"))
+                add(Verduras(R.mipmap.peregil,"Peregil", "Frescos", "S/.0.50"))
+                add(Verduras(R.mipmap.culantro,"Culantro", "Frescos", "S/.0.50"))
+                add(Verduras(R.mipmap.pepinillo,"Pepinillo", "Frescos", "S/.1.00"))
+                add(Verduras(R.mipmap.kion,"Kion", "Frescos", "S/.0.30"))
 
 
             }

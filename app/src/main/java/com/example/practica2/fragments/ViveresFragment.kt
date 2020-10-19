@@ -8,12 +8,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.practica2.R
-import com.example.practica2.adapters.VerdurasAdapter
 import com.example.practica2.adapters.ViveresAdapter
-import com.example.practica2.models.Verduras
 import com.example.practica2.models.Viveres
-import kotlinx.android.synthetic.main.fragment_verduras.*
-import kotlinx.android.synthetic.main.fragment_verduras.rvVerduras
 import kotlinx.android.synthetic.main.fragment_viveres.*
 
 
@@ -42,16 +38,16 @@ class ViveresFragment : Fragment() {
         return object : ArrayList<Viveres>(){
             init {
                 clear()
-                add(Viveres("Manzana Chilena", "Importadas", "S/.5.00"))
-                add(Viveres("Papaya", "Recien Pañadas", "S/.6.00"))
-                add(Viveres("Platano", "De la Isla y de Ceda", "S/.4.00"))
-                add(Viveres("Mango", "Recien Pañadas", "S/.8.00"))
-                add(Viveres("Fresa", "Recien Pañadas", "S/.4.00"))
-                add(Viveres("Mandarina", "Recien Pañadas", "S/.4.00"))
-                add(Viveres("Naranja", "Recien Pañadas", "S/.5.00"))
-                add(Viveres("Pera", "Recien Pañadas", "S/.7.00"))
-                add(Viveres("Durazno", "Recien Pañadas", "S/.7.00"))
-                add(Viveres("Cereza", "Recien Pañadas", "S/.2.00"))
+                add(Viveres(R.mipmap.arroz,"Arroz", "Kilo", "S/.3.00"))
+                add(Viveres(R.mipmap.azucar,"Azucar", "Kilo", "S/.5.00"))
+                add(Viveres(R.mipmap.sal,"Sal", "Paquete", "S/.4.00"))
+                add(Viveres(R.mipmap.fideos,"Fideos", "Cuarto", "S/.1.00"))
+                add(Viveres(R.mipmap.harina,"Harina", "Cuarto", "S/.1.00"))
+                add(Viveres(R.mipmap.chuno,"Chuño", "Cuarto", "S/.1.00"))
+                add(Viveres(R.mipmap.leche,"Leche", "Lata", "S/.3.00"))
+                add(Viveres(R.mipmap.atun,"Atun Lata", "Lata", "S/.5.00"))
+                add(Viveres(R.mipmap.aceite,"Aceite", "Litro", "S/.5.00"))
+                add(Viveres(R.mipmap.huevos,"Huevos", "Kilo", "S/.6.00"))
 
 
             }
