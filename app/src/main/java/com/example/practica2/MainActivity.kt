@@ -1,5 +1,6 @@
 package com.example.practica2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -12,6 +13,7 @@ import com.example.practica2.fragments.FrutasFragment
 import com.example.practica2.fragments.VerdurasFragment
 import com.example.practica2.fragments.ViveresFragment
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_frutas.*
 
 class MainActivity : AppCompatActivity() {
 
