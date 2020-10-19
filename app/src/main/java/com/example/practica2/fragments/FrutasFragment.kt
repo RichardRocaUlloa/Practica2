@@ -24,12 +24,10 @@ class FrutasFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_frutas, container, false)
     }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setRecycler()
     }
-
     fun setRecycler(){
         rvFrutas.setHasFixedSize(true)
         rvFrutas.layoutManager = LinearLayoutManager(context)
