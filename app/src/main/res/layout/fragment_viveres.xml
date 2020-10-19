@@ -6,7 +6,9 @@
     tools:context=".fragments.ViveresFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvViveres"
+        tools:listitem="@layout/row_viveres"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
