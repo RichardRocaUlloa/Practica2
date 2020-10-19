@@ -8,10 +8,8 @@ class PagerAdapter(fm:FragmentManager)
     :FragmentPagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
     private val listFragments = ArrayList<Fragment>()
-
     override fun getCount() = listFragments.size
     override fun getItem(position: Int) = listFragments[position]
     fun addFrag(f:Fragment) = listFragments.add(f)
-
 
 }
